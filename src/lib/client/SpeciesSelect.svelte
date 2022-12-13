@@ -21,7 +21,6 @@ onMount(() => {
   selectComponent.value = species
 })
 
-
 function handleChange(event: Event) {
   if (!event.target) return
   species = (event.target as CyanSelect).value
