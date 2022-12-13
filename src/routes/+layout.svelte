@@ -1,6 +1,11 @@
 <script lang="ts">
 import '@11thdeg/cyan/style.css'
-import '@11thdeg/cyan'
+import { onMount } from 'svelte';
+
+onMount(async () => {
+  await import('@11thdeg/cyan') // This library needs to run on the client
+})
+
 </script>
 
 <cyan-navigation-rail>
