@@ -9,13 +9,13 @@ let selectComponent: CyanSelect
 onMount(() => {
   selectComponent.options = [
     { value: '-', label: "- Valitse -"},
-    { value: "elf", label: "Haltija" },
+    { value: "elf", label: "Haltia" },
     { value: "human", label: "Ihminen" },
     { value: "dwarf", label: "Kääpiö" },
-    { value: "dragonling", label: "Louhelainen" },
+    { value: "dragonborn", label: "Louhelainen" },
     { value: "gnome", label: "Maahinen" },
     { value: "halfling", label: "Puolituinen"},
-    { value: "changeling", label: 'Vaihdokas'},
+    { value: "tiefling", label: 'Vaihdokas'},
     { value: "orc", label: 'Örkki'}
   ]
   selectComponent.value = species
